@@ -17,3 +17,12 @@ def mult(g,h):
 def remain(i,j):
     rem =i%j
     return rem
+
+
+    
+
+my_dict ={'Tom':'93', 'Hannah':'83', 'Jack':'94'}
+value =2
+count=len([x for x in my_dict.values()if x < value])
+print(count) 
+    
