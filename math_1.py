@@ -19,10 +19,16 @@ def remain(i,j):
     return rem
 
 
-    
 
-my_dict ={'Tom':'93', 'Hannah':'83', 'Jack':'94'}
-value =2
-count=len([x for x in my_dict.values()if x < value])
-print(count) 
-    
+    # Write a function that takes a list of 
+    # numbers as input and returns a new list 
+    # with all duplicate numbers removed.
+def number(num):
+    return list(set(num))
+nums=[1,2,2,4,5,6]
+print(number(nums))
+        
+
+        
+
+
